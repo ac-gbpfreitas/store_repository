@@ -1,0 +1,17 @@
+<?php
+/*
+define('DB_HOST','localhost');
+define('DB_USER','root');
+define('DB_NAME','storeDb');
+define('DB_PASS','');
+*/
+/*
+define("SERVERNAME","remotemysql.com:3306");
+define("DBUSERNAME","gcpbdLlWnV");
+define("DBPASSWORD","yPTNv3hY1S");
+define("DBNAME","gcpbdLlWnV");
+*/
+define('DB_HOST','remotemysql.com:3306');
+define('DB_USER','gcpbdLlWnV');
+define('DB_NAME','gcpbdLlWnV');
+define('DB_PASS','yPTNv3hY1S');
