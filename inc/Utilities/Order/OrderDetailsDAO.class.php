@@ -19,7 +19,7 @@
             self::$db = new PDOAgent('OrderDetails');
         }
 
-        public static function getOrderDetail(int $id)  :   OrderDetail {
+        public static function getOrderDetails(int $id)  :   OrderDetail {
             $sql = "SELECT * FROM OrderDetail WHERE OrderDetailId = :id";
             
             self::$db->query($sql);
@@ -29,7 +29,7 @@
             return self::$db->singleResult();
         }
         //insert into OrderDetail (OrderDetailId, OrderId, ProductId, Quantity) values (
-        public static function getAllOderDetails()  {
+        public static function getAllOrderDetails()  {
             $sql = "SELECT * FROM OrderDetail";
             self::$db->query($sql);
             self::$db->execute();
